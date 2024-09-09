@@ -13,14 +13,27 @@
 
 <body>
     <header>
-        <nav>
-            <div>
+        <nav class="px-3 py-0 my-0">
+            <div class="logo">
                 <ion-icon name="reorder-three-outline" id="menu"></ion-icon>
                 <a href="index.html" id="youtbelogoLink"><img src="asset/youtubeLogo.svg" alt="Youtube Logo"
                         id="YoutubeLogo"> <sup>PK</sup></a>
             </div>
 
+            <div class="search-container">
+                <div class="input-group flex-nowrap ">
+                    <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping" id="search-bar-input">
+                    <span class="input-group-text" id="addon-wrapping" id="search-icon"><ion-icon name="search-outline" class="icon"></ion-icon></span>
+                </div>
 
+                <span id="search-mic-container" class="mx-3"><ion-icon name="mic-outline" class="icon"  id="search-mic"></ion-icon></span>
+            </div>
+
+            <div class="nav-icons">
+                <ion-icon name="videocam-outline" class="icon"></ion-icon>
+                <ion-icon name="notifications-outline" class="icon"></ion-icon>
+                <ion-icon name="person-circle-outline" class="icon"></ion-icon>
+            </div>
         </nav>
     </header>
 
@@ -29,9 +42,7 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <!-- BOOTSTRAP CDN  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

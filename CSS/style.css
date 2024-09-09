@@ -16,3 +16,49 @@
     color: black;
     text-decoration: none;
 }
+nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search-container{
+    width: 45%;
+    height: 35px;
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+}
+
+#search-bar-input{
+    border-radius: 20px 0 0 20px;
+}
+#search-icon ion-icon{
+    border-radius: 0 20px 20px 0;
+}
+#search-mic{
+    width: 25px;
+    height: 25px;
+}
+#search-mic-container{
+    background-color: rgb(214, 211, 211);
+    padding: 5px;
+    /* margin: 10px 0 5px 10px; */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.nav-icons .icon{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
